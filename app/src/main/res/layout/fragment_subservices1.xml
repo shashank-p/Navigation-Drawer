@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shashank.wash.SubServices.SubServices1Fragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SubServices Page 1"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/ivback_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick=""
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="left"
+            android:background="@mipmap/ic_arrow_back_black_24dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+</FrameLayout>
