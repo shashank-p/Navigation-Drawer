@@ -8,3 +8,5 @@ On back pressing it goes back previous fragment from there it goes back to Home 
 It is built to work on Android 5.1 & above
 
 Technologies used: Android, Java, XML
+
+IDE: Android Studio 3.0
